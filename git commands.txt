@@ -1,0 +1,14 @@
+> git init
+> git add .
+> git commit -m "first commit"
+> git branch -M main
+> git remote add origin https://github.com/soroush216/monsters-rolodex.git
+
+> yarn add gh-pages
+
+> # add "homepage" in package.json
+> # add "predeploy" and "deploy" to script part of package.json 
+> yarn deploy
+
+> git push -u origin main
+
